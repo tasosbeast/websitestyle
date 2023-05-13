@@ -1,0 +1,238 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+ margin: 10px 80px;
+ font-size: larger;
+ background-color: rgb(250, 246, 234);
+}
+
+h1 {
+ text-align: center;
+ text-shadow: black 0px 10px 10px;
+}
+
+header{
+    position: fixed;
+    background-color: wheat;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: 20px;
+    border: black 5px solid;
+    box-sizing: border-box;
+
+ }
+
+ header a{
+     text-decoration: none;
+     color: rgb(255, 255, 255);
+     font-size: 1.5rem;
+     font-weight: 700;
+     margin: 0 20px;
+     text-shadow: black 2px 10px 10px;
+     cursor: pointer;
+     border-top: solid 2px;
+    border-bottom: solid 2px;
+     padding: 10px;
+     box-shadow: black 2px 10px 25px;
+ }
+
+ header a:hover{
+     background-color: rgb(255, 255, 255);
+     color: rgb(0, 0, 0);
+     border-top: solid 2px;
+    border-bottom: solid 2px;
+     padding: 10px;
+     box-shadow: black 2px 10px 25px;
+ }
+
+ header a:active{
+     background-color: rgb(255, 255, 255);
+     color: rgb(0, 0, 0);
+     border-top: solid 2px;
+    border-bottom: solid 2px;
+     padding: 10px;
+     box-shadow: black 0px 0px 0px;
+     /*move a bit down */
+        position: relative;
+        top: 5px;
+
+ }
+
+ .colors_nav{
+    background-color: #ff0000;
+ }
+
+ .fonts_nav{
+    background-color: #00ff00;
+ }
+
+ .images_nav{
+        background-color: #0000ff;
+    }
+
+section {
+    border: solid 5px;
+    padding: 0px;
+    box-shadow: black 5px 20px 50px;
+    background-color: white;
+    margin: 40px 0;
+    position: relative;
+    top: 140px;
+
+}
+
+
+section h2, .images h3 {
+ font-size: 1.5em;
+ margin: 10px 0 50px;
+ text-align: center;
+ text-shadow: black 2px 10px 10px;
+}
+
+ul{
+    list-style-type: none;
+    /* flexbox */
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+}
+
+.primary{
+    background-color: #ff0000;
+    font-family: 'Merriweather', serif;
+}
+
+.secondary{
+    background-color: #00ff00;
+    margin: 0 10px;
+    font-family: 'Merriweather', serif;
+}
+
+.tertiary{
+    background-color: #0000ff;
+    font-family: 'Merriweather', serif;
+}
+
+.tertiary, .secondary, .primary{
+    display: inline-block;
+    width: 15rem;
+    height: 10rem;
+    border-radius: 80px 80px 0 0;
+    text-align: center;
+    text-shadow: black 2px 10px 10px;
+    padding: 10px;
+}
+
+.colors li a{
+    text-decoration: none;
+    color: black;
+    letter-spacing: 2px;
+}
+
+li h3{
+    margin: 0;
+    padding: 0;
+}
+
+.fonts{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    margin: 30px;
+}
+
+.heading_font{
+    font-family: 'Merriweather', serif;
+    font-size: 2rem;
+    font-weight: 700;
+    text-shadow: black 2px 10px 10px;
+    margin: 0 20px;
+    color: #ff0000;
+}
+
+.body_font{
+    font-family: 'Caveat', cursive;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-shadow: black 2px 10px 10px;
+    margin: 0 20px;
+    color: #00ff00;
+}
+
+.footer_font {
+    font-family: 'Cookie', cursive;
+    font-size: 1rem;
+    font-weight: 400;
+    text-shadow: black 2px 10px 10px;
+    margin: 0 20px;
+    color: #0000ff;
+}
+
+.images{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 30px;
+    flex-wrap: nowrap;
+
+}
+
+.images_heading{
+    text-align: center;
+    text-shadow: black 2px 10px 10px;
+    margin: 0 20px;
+}
+
+.logo, .hero, .icon{
+    text-align: center;
+}
+
+.logo img, .hero img, .icon img{
+    width: 200px;
+    height: 200px;
+    scale: 0.8;
+    border-radius: 30px;
+    box-shadow: black 5px 20px 50px;
+    border: solid 5px;
+}
+
+.logo h3{
+    color: #ff0000;
+}
+
+.hero h3{
+    color: #00ff00;
+}
+
+.icon h3{
+    color: #0000ff;
+}
+
+.logo img{
+    border-color: #ff0000;
+}
+
+.hero img{
+    border-color: #00ff00;
+}
+
+.icon img{
+    border-color: #0000ff;
+}
+
+figcaption{
+    font-size: 0.8rem;
+    font-weight: 400;
+    text-shadow: black 2px 10px 10px;
+    margin: 0 20px;
+}
+
+figure{
+    margin: 0;
+    padding: 0;
+}

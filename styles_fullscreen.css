@@ -1,0 +1,21 @@
+.body_primary {
+    background-color: #ff0000;
+}
+.body_secondary {
+    background-color: #00ff00;
+}
+.body_tertiary {
+    background-color: #0000ff;
+}
+
+a{
+    color: #000000;
+    border-radius: 40%;
+    padding: 10px;
+    text-decoration: none;
+    margin: 30px 10px;
+    position: relative;
+    top: 20px;
+    background-color: yellow;
+    box-shadow: black 0px 5px 20px;
+}
