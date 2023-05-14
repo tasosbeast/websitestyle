@@ -28,25 +28,23 @@ header{
 
  header a{
      text-decoration: none;
-     color: rgb(255, 255, 255);
+     color: rgb(0, 0, 0);
      font-size: 1.5rem;
      font-weight: 700;
      margin: 0 20px;
-     text-shadow: black 2px 10px 10px;
      cursor: pointer;
      border-top: solid 2px;
     border-bottom: solid 2px;
      padding: 10px;
-     box-shadow: black 2px 10px 25px;
  }
 
  header a:hover{
-     background-color: rgb(255, 255, 255);
-     color: rgb(0, 0, 0);
      border-top: solid 2px;
     border-bottom: solid 2px;
      padding: 10px;
-     box-shadow: black 2px 10px 25px;
+     opacity: 0.5;
+     border-radius: 5px;
+     background-color: #baa783;
  }
 
  header a:active{
@@ -62,17 +60,7 @@ header{
 
  }
 
- .colors_nav{
-    background-color: #ff0000;
- }
-
- .fonts_nav{
-    background-color: #00ff00;
- }
-
- .images_nav{
-        background-color: #0000ff;
-    }
+ 
 
 section {
     border: solid 5px;
